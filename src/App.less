@@ -1,0 +1,29 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: black;
+  color:white;
+}
+.cat-group{
+  background-color: rgba(255,255,255,0.4);
+}
+
+.cat-item{
+  grid-template-areas: 'a b' 'c c';
+  grid-template-columns: 1fr auto;
+  background-color: rgba(255,255,255,0.4);
+  .cat-img{
+    grid-area: b;
+    img{
+      height: 24px;
+    }
+  }
+  .cat-title{
+    grid-area: a;
+  }
+  .cat-desc{
+    grid-area: c;
+  }
+}

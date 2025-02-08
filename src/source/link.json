@@ -1,0 +1,881 @@
+{
+  "dev": [
+    {
+      "cat": "前端开发",
+      "desc": "基于javascript开发的前端框架",
+      "id": "renderFrame",
+      "list": [
+        {
+          "name":"Vue",
+          "url":"https://cn.vuejs.org/",
+          "family": true,
+          "desc":"一款用于构建用户界面的JavaScript框架。它基于标准HTML、CSS和JavaScript构建，并提供了一套声明式的、组件化的编程模型，帮助开发者高效地开发用户界面。",
+          "have":"易学|易用|生态好",
+          "icon":{
+            "name":"vue.png"
+          },
+          "group": [
+            {
+              "name":"Vue2",
+              "url": "https://v2.cn.vuejs.org/"
+            },
+            {
+              "name":"Vue3",
+              "url": "https://cn.vuejs.org/"
+            },
+            {
+              "name":"Vue-Router",
+              "url": "https://router.vuejs.org/zh/"
+            },
+            {
+              "name":"Pinia",
+              "url": "https://pinia.vuejs.org/zh/"
+            },
+            {
+              "name":"Vuex",
+              "url": "https://vuex.vuejs.org/zh/guide/"
+            },
+            {
+              "name":"Vue-i18n",
+              "url": "https://vue-i18n.intlify.dev/"
+            }
+          ]
+        },
+        {
+          "name":"React",
+          "url":"https://react.nodejs.cn/",
+          "desc":"React 是用于网页和原生用户界面的库。 使用 JavaScript 编写的称为组件的各个部分构建用户界面。 React 旨在让你无缝组合由独立人员、团队和组织编写的组件。",
+          "have":"易学|易用|生态好",
+          "icon":{
+            "name":"react.svg"
+          },
+          "family": true,
+          "group": [
+            {
+              "name": "React Router",
+              "url": "https://reactrouter.com/en/main"
+            },
+            {
+              "name": "React Redux",
+              "url": "https://react-redux.js.org/"
+            }
+          ]
+        },
+        {
+          "name":"Nextjs",
+          "url":"https://www.nextjs.cn/",
+          "desc":"Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置。",
+          "have":"SSR|React|SEO",
+          "icon":{
+            "name":"nextjs.png"
+          }
+        },
+        {
+          "name":"NuxtJS",
+          "url":"https://www.nuxtjs.cn/guide",
+          "desc":"‌Nuxt.js是一个基于Vue.js的服务端渲染框架，主要用于构建SSR（服务端渲染）的Vue应用程序,通过在服务器端预先渲染页面，使得搜索引擎能够更容易地抓取页面内容，从而提高SEO效果.",
+          "have":"SSR|Vue|SEO",
+          "icon":{
+            "name":"nuxtjs.png"
+          }
+        },
+        {
+          "name":"Uni",
+          "url":"https://uniapp.dcloud.net.cn/",
+          "desc":"一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台。",
+          "have":"跨平台小程序|响应式|跨平台|组件化|丰富的生态",
+          "icon":{
+            "name":"uni.png"
+          }
+        },
+        {
+          "name":"RactNative",
+          "url":"https://www.react-native.cn/",
+          "desc":"React Native 将原生开发的最佳部分与 React 相结合， 致力于成为构建用户界面的顶尖 JavaScript 框架。酌量添加，多少随意。随时都可以把 React Native 无缝集成到你已有的 Android 或 iOS 项目，当然也可以完全从头焕然一新地重写。",
+          "have":"iOS|Android|一次学习随处编写",
+          "icon":{
+            "name":"reactnative.svg"
+          }
+        },
+        {
+          "name":"Ionic",
+          "url":"https://ionicframework.com/",
+          "desc":"Ionic是一个开源UI工具包，用于使用web技术(HTML、CSS和JavaScript)构建高性能、高质量的移动应用程序，并集成了Angular、React和Vue.js等前端框架。",
+          "have":"iOS|Android|移动端开发",
+          "icon":{
+            "name":"ionic.png"
+          }
+        },
+        {
+          "name":"VuePress",
+          "url":"https://vuepress.vuejs.org/zh/",
+          "desc":"以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。",
+          "have":"Markdown|Vue驱动的静态网站生成器",
+          "icon":{
+            "name":"vuepress.png"
+          }
+        },
+        {
+          "name":"UmiJS",
+          "url":"https://v2.umijs.org/zh/",
+          "desc":"一个可插拔的企业级 react 应用框架。umi 以路由为基础的，支持类 next.js 的约定式路由，以及各种进阶的路由功能，并以此进行功能扩展，比如支持路由级的按需加载。然后配以完善的插件体系，覆盖从源码到构建产物的每个生命周期，支持各种功能扩展和业务需求，目前内外部加起来已有 50+ 的插件。",
+          "have":"插件化|开箱即用|约定式路由|企业级React应用框架",
+          "icon":{
+            "name":"umijs.png"
+          }
+        },
+        {
+          "name":"AngularJS",
+          "url":"https://angularjs.org/",
+          "desc":"一组用来开发 Web 页面的框架、模板以及数据绑定和丰富 UI 组件。它支持整个开发进程，提供 Web 应用的架构",
+          "have":"SPA|MMVM|组件化|数据绑定|UI组件",
+          "icon":{
+            "name":"angularjs.svg"
+          }
+        },
+        {
+          "name":"Electron",
+          "url":"https://electronjs.p2hp.com/",
+          "desc":"个开源的跨平台桌面应用开发框架，它使用JavaScript、HTML和CSS等Web技术来构建桌面应用程序。Electron通过嵌入Chromium和Node.js，使得Web开发者能够轻松创建兼容macOS、Windows和Linux的桌面应用‌",
+          "have":"桌面应用|macOS|Windows|Linux",
+          "icon":{
+            "name":"electron.svg"
+          }
+        },
+        {
+          "name":"TypeScript",
+          "url":"https://www.tslang.cn/docs/home.html",
+          "desc":"TypeScript是微软开发的一个开源的编程语言，通过在JavaScript的基础上添加静态类型定义构建而成。TypeScript通过TypeScript编译器或Babel转译为JavaScript代码，可运行在任何浏览器，任何操作系统。",
+          "have":"TS|JavaScript类型的超集",
+          "icon":{
+            "color":"#294E80"
+          }
+        },
+        {
+          "name":"MorJS",
+          "url":"https://mor.eleme.cn/",
+          "desc":"Mor 是一套基于小程序 DSL (支付宝或微信) 的框架。他的易用性、标准化和灵活性，使得开发者能更好地专注于业务，让开发成本，招聘、管理、测试各方面成本都大幅下降，提高开发者的工作效率。",
+          "have":"微信小程序|支付宝小程序|开箱即用|小程序多端研发框架",
+          "icon":{
+            "name":"morejs.png"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "UI库",
+      "desc": "前端UI框架",
+      "id":"uiFrame",
+      "list": [
+        {
+          "name": "TailWindUI",
+          "url": "https://tailwindui.com/",
+          "desc": "设计精美、制作精良的组件和模板，由 Tailwind CSS 的制造商构建。这是您下一个项目的完美起点。",
+          "have": "一次付费永久更新",
+          "icon": {
+            "name": "tailwindui.png"
+          }
+        },
+        {
+          "name": "ArcoDesign",
+          "url": "https://arco.design/react/docs/start",
+          "desc": "包含了一系列的设计原则、规范和组件，旨在帮助开发者构建一致性和高效性的 Web 应用和移动应用。设计风格简洁、现代，注重可用性和用户体验。它提供了丰富的组件和模板，可以帮助开发者快速实现设计效果，并且支持多端适配。",
+          "have": "丰富的组件",
+          "icon": {
+            "name": "arcodesign.png"
+          }
+        },
+        {
+          "name": "Font Awesome",
+          "url": "https://fontawesome.com/icons",
+          "desc": "一款非常流行的图标字体库，包含了大量的免费图标，涵盖了各种领域和用途，如文件、编辑、社交、箭头等",
+          "have": "icon",
+          "icon": {
+            "name": "fontawesome.png"
+          }
+        },
+        {
+          "name": "IonicIcons",
+          "url": "https://ionic.io/ionicons",
+          "desc": "专门为 Ionic 框架设计的图标库，但也可以在其他项目中使用，包含了大量的简洁、现代的图标，适用于移动应用和网页设计。",
+          "have": "icon",
+          "icon": {
+            "name": "ionicicons.png"
+          }
+        },
+        {
+          "name": "UiVerse",
+          "url": "https://uiverse.io/",
+          "desc": "使用 CSS 或 Tailwind 制作的自定义元素。适用于任何项目的开源 UI 元素",
+          "have": "UiVerse",
+          "icon": {
+            "name": "uiverse.svg"
+          }
+        },
+        {
+          "name": "Bootstrap",
+          "url": "https://www.bootcss.com/",
+          "desc": "Bootstrap是一个由Twitter开发的流行的开源前端框架，它使用HTML、CSS和JavaScript来构建现代响应式Web应用程序。Bootstrap提供了许多有用的组件和样式，如网格系统、表单、导航、按钮、模态框等等。",
+          "have": "易于使用|高度可定制|响应式设计|庞大的社区支持",
+          "icon": {"name":"bootcss.png"}
+        },
+        {
+          "name": "Foundation",
+          "url": "https://get.foundation/index.html",
+          "desc": "Foundation 是一个适用于任何设备、媒介和可访问性的框架。Foundation 是一个响应式前端框架系列，它可以让你轻松设计出漂亮的响应式网站、应用程序和电子邮件，在任何设备上看起来都非常漂亮。",
+          "have": "语义性|可读性|灵活性|完全可定制性",
+          "icon": {
+            "name": "fundation.png"
+          }
+        },
+        {
+          "name": "uView",
+          "url": "https://uviewui.com/",
+          "desc": "uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水",
+          "have": "多平台快速开发的UI框架",
+          "icon": {
+            "name": "uview.png"
+          }
+        },
+        {
+          "name": "Ant Design",
+          "url": "https://ant-design.antgroup.com/index-cn",
+          "desc": "Ant Design是一个由阿里巴巴开发的React组件库，它提供了许多丰富的UI组件和样式，如按钮、表单、导航、布局、图标等等。它还具有国际化支持和可自定义的主题定制功能。",
+          "have": "企业级设计|响应式设计|可定制性|易于使用|高质量的文档和示例",
+          "suport": "Vue|React|Angular",
+          "icon": {"name":"antd.svg"}
+        },
+        {
+          "name": "ElementUI",
+          "url": "https://element.eleme.cn/#/zh-CN",
+          "desc": "它提供了许多易于使用和高度可定制的UI组件和样式，如按钮、表单、导航、菜单、对话框、布局等等。Element UI的设计遵循了现代响应式设计的最佳实践，使得开发者能够快速构建漂亮且功能强大的Web应用程序。",
+          "have": "易于使用|高度可定制|多语言支持|文档完善",
+          "suport": "Vue|React|Angular",
+          "icon": {
+            "name":"elementui.svg"
+          }
+        },
+        {
+          "name": "ElementPlus",
+          "url": "https://element-plus.org/zh-CN/#/zh-CN",
+          "desc": "基于 Vue 3，面向设计师和开发者的组件库",
+          "have": "易于使用|高度可定制|多语言支持|文档完善",
+          "icon": {
+            "name":"elementplus.svg"
+          }
+        },
+        {
+          "name": "Semantic UI",
+          "url": "https://semantic-ui.com/",
+          "desc": "Semantic UI是一个基于语义化的HTML的前端UI框架，它提供了许多易于使用和高度可定制的UI组件和样式，如按钮、表单、导航、菜单、对话框、布局等等。",
+          "have": "语义化|高度可定制|响应式设计|文档完善",
+          "icon": {
+            "name":"semanticui.png"
+          }
+        },
+        {
+          "name": "Frozen UI",
+          "url": "https://frozenui.github.io/getting-started",
+          "desc": "FrozenUI 是一套基于移动端的UI库。它非常轻量、精美，遵从手机QQ设计规范，提供了表单、对话框、列表等常用组件。此外，FrozenUI还提供文字截断、1px边框、rem、两端留白等常用场景的解决方案。CSS做得更模块化和颗粒化，使用sass编写CSS代码，你完全可以按照实际情况按需加载。",
+          "have": "简单易用|轻量快捷|为移动端服务的前端框架",
+          "icon": {
+            "name": "forzenui.png"
+          }
+        },
+        {
+          "name": "Vuetify",
+          "url": "https://vuetifyjs.com/zh-Hans/",
+          "desc": "Vuetify是一个基于Vue.js的现代响应式UI框架，它提供了许多有用的UI组件和样式，如按钮、卡片、表单、导航、网格等等。它还具有可自定义的主题定制功能和许多有用的插件。",
+          "have": "响应式设计|Material Design风格|易于使用|高度可定制|社区支持",
+          "icon": {
+            "name": "vuetify.svg"
+          }
+        },
+        {
+          "name": "WeUI",
+          "desc": "WeUI 是一套同微信原生视觉体验一致的基础样式库，为微信 Web 开发量身设计，可以令用户的使用感知更加统一。包含 button、cell、dialog、toast、article、icon 等各式元素。",
+          "url": "https://weui.io/",
+          "have": "微信Web服务量身设计",
+          "icon": {
+            "color": "#21b351"
+          }
+        },
+        {
+          "name": "SUI",
+          "url": "https://sui.io/",
+          "desc": "SUI 是一套基于bootstrap开发的前端组件库，同时它也是一套设计规范。通过SUI，可以非常方便的设计和实现精美的页面,如果你之前用过 Bootstrap， 那么可以轻松转向 SUI",
+          "have": "bootstrap",
+          "icon": {
+            "name": "sui.svg",
+            "bgColor": "#ffffff"
+          }
+        },
+        {
+          "name": "UIKIT",
+          "url": "https://www.uikitcss.com/",
+          "desc": "UIkit是YOOtheme团队开发的，在许多WordPress主题中都有应用(也就是如果你是个 WordPress 爱好者，那么这个框架应该比较适合深究)，并且框架能够通过GUI编辑器和手动编辑，所以它提供了一个灵活、强大的自定义机制。",
+          "have": "轻量级的模块化前端框架",
+          "icon": {
+            "name": "uikit.svg",
+            "bgColor": "#1e87f0"
+          }
+        },
+        {
+          "name": "HeadlessUI",
+          "url": "https://headlessui.com/",
+          "desc": "有时候不需要很重的组件库，你可以使用Headless UI来构建自己的组件库。",
+          "have": "Vue|React|轻量组件",
+          "icon": {
+            "name": "headlessui.png"
+          }
+        },
+        {
+          "name": "FirstUI UNI",
+          "url": "https://www.firstui.cn/",
+          "desc": "FirstUI UNI（选项式API）版 是一套基于uni-app开发的组件化、可复用、易扩展、低耦合的跨平台移动端UI 组件库。",
+          "have": "开箱即用|丰富的组件|样式可配置|拓展灵活|付费",
+          "icon": {
+            "name": "fui.png"
+          }
+        },
+        {
+          "name": "PureCss",
+          "url": "https://purecss.io/",
+          "desc": "一组小型、响应式 CSS 模块，可在每个 Web 项目中使用。",
+          "have": "占用空间小|专为移动设备而设计|构建于Normalize.css之上",
+          "icon": {
+            "name": "pure.png"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "样式表",
+      "desc": "前端样式开发及处理工具",
+      "id":"cssStyle",
+      "list": [
+        {
+          "name":"Sass",
+          "desc":"Sass世界上最成熟、稳定和强大的CSS扩展语言",
+          "url":"https://www.sasscss.com/",
+          "icon":{
+            "name":"sass.svg"
+          }
+        },
+        {
+          "name":"Less",
+          "desc":"Less (Leaner Style Sheets 的缩写) 是一门向后兼容的 CSS 扩展语言。",
+          "url":"https://less.bootcss.com/",
+          "icon":{
+            "name":"less.png"
+          }
+        },
+        {
+          "name":"BEM",
+          "desc":"BEM是一种前端命名方法论，主要是针对CSS，意思是块（Block）、元素（Element）、修饰符（Modifier）的简写",
+          "url":"https://juejin.cn/post/7405834903370154022",
+          "icon":{
+            "color":"red"
+          }
+        },
+        {
+          "name":"NormalizeCss",
+          "desc":"Normalize.css使浏览器渲染所有元素更加一致并符合现代标准。它精确地仅针对需要规范化的样式。",
+          "have":"规范化css|现代HTML5替代CSS重置",
+          "url":"https://necolas.github.io/normalize.css/",
+          "icon":{
+            "name":"normalize.svg"
+          }
+        },
+        {
+          "name":"TailWindCss",
+          "url":"https://www.tailwindcss.cn/",
+          "desc":"只需书写HTML代码，无需书写CSS，即可快速构建美观的网站。本 CSS 框架本质上是一个工具集，可以组合使用并直接在 HTML 代码上实现任何 UI 设计。",
+          "have":"react|vue|angular|blade|mediaquery",
+          "icon":{
+            "name":"tailwindcss.png"
+          }
+        },
+        {
+          "name":"AnimateCss",
+          "url":"https://animate.style/",
+          "desc":"Animate.css 是一个随时可用的跨浏览器动画库，可在 Web 项目中使用。非常适合强调、主页、滑块和引导注意力的提示",
+          "have":"keyframe|transition|transform",
+          "icon":{
+            "color":"#351c75"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "构建工具",
+      "desc": "前端构建工具",
+      "id":"buildTool",
+      "list": [
+        {
+          "name":"Vite",
+          "url":"https://cn.vitejs.dev/",
+          "desc":"下一代的前端工具链,为开发提供极速响应",
+          "have":"极速的服务启动|轻量快速的热重载|丰富的功能",
+          "icon":{
+            "name":"vite.svg"
+          }
+        },
+        {
+          "name":"Webapck",
+          "url":"https://www.webpackjs.com/",
+          "desc":"webpack 是一个模块打包器。它的主要目标是将 JavaScript 文件打包在一起，打包后的文件用于在浏览器中使用。",
+          "have":"打包项目|高度可配置性",
+          "icon":{
+            "name":"webpack.svg"
+          }
+        },
+        {
+          "name":"Rollup",
+          "url":"https://www.rollupjs.com/",
+          "desc":"Rollup 是一个用于 JavaScript 的模块打包工具，它将小的代码片段编译成更大、更复杂的代码，只包含最少的内容。",
+          "have":"自动化构建工具",
+          "icon":{
+            "name":"rollup.png"
+          }
+        },
+        {
+          "name":"GulpJs",
+          "url":"https://gulpjs.com/",
+          "desc":"Gulp.js 是一个自动化构建工具,开发者可以使用它在项目开发过程中自动执行常见任务。Gulp.js 是基于 Node.js 构建的,利用 Node.js 流的威力,你可以快速构建项目并减少频繁的 IO 操作。",
+          "have":"自动化构建工具",
+          "icon":{
+            "name":"gulp.svg"
+          }
+        },
+        {
+          "name":"Parcel",
+          "url":"https://www.parceljs.cn/",
+          "desc":"极速零配置Web应用打包工具,先从你应用的入口 HTML 文件开始。Parcel 跟随着文件的依赖去构建你的整个应用。",
+          "have":"极速打包|自动转换|零配置代码分拆",
+          "icon":{
+            "name":"percel.svg"
+          }
+        },
+        {
+          "name":"Babel",
+          "url":"https://www.babeljs.cn/docs/",
+          "desc":"Babel 是一个工具链，主要用于将采用 ECMAScript 2015+ 语法编写的代码转换为向后兼容的 JavaScript 语法，以便能够运行在当前和旧版本的浏览器或其他环境中。",
+          "have":"语法转换|Polyfill|源码转换",
+          "icon":{
+            "name":"babel.png"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "辅助工具",
+      "desc": "前端辅助工具",
+      "id":"helper",
+      "list": [
+        {
+          "name":"MDN",
+          "url":"https://developer.mozilla.org/zh-CN/",
+          "desc":"MDN Web Docs 拥有最新、最准确的信息，内容以易于理解的方式呈现",
+          "have":"HTML|CSS|Javascript|HTTP|WebAPIs",
+          "icon":{
+            "name":"mdn.png"
+          }
+        },
+        {
+          "name":"bootCdn",
+          "url":"https://www.bootcdn.cn/all/",
+          "desc":"稳定、快速、免费的前端开源项目 CDN 加速服务",
+          "have":"CDN",
+          "icon":{
+            "name":"bootcdn.png"
+          }
+        },
+        {
+          "name":"w3cschool",
+          "url":"https://www.w3cschool.cn/dict/",
+          "desc":"一个专业的W3C前端开发及编程入门学习平台,提供包括HTML,CSS,Javascript,jQuery,C,PHP,Java,Python,Sql,Mysql等编程语言和开源技术的在线教程及使用手册",
+          "have":"学习手册",
+          "icon":{
+            "color":"#fe6a00"
+          }
+        },
+        {
+          "name":"mockJS",
+          "url":"http://mockjs.com/",
+          "desc":"生成随机数据，拦截 Ajax 请求",
+          "have":"mock",
+          "icon":{
+            "name":"mockjs.png"
+          }
+        },
+        {
+          "name":"PurgeCss",
+          "url":"https://www.purgecss.cn/",
+          "desc":"PurgeCSS 是一个用来删除未使用的 CSS 代码的工具。",
+          "have": "react|vue|next.js|unxt.js|wordpress",
+          "icon":{
+            "name":"purgecss.png"
+          }
+        },
+        {
+          "name":"CanIUse",
+          "url":"https://caniuse.com/",
+          "desc":"Caniuse 浏览器兼容性查询工具",
+          "have":"",
+          "icon":{
+            "name":"caniuse.png"
+          }
+        },
+        {
+          "name":"ESLint",
+          "url":"https://eslint.nodejs.cn/",
+          "desc":"帮助你查找和修复 JavaScript 代码中的问题。 无论你是在浏览器中还是在服务器上编写 JavaScript,无论是否使用框架,ESLint 都可以帮助你的代码发挥最大的作用。",
+          "icon":{
+            "name":"eslint.png"
+          }
+        },
+        {
+          "name":"NPM",
+          "url":"https://npm.p2hp.com/",
+          "desc":"它是 Node 包管理器，免费向社区提供这些工具，让您的 JavaScript 开发更上一层楼",
+          "icon":{
+            "name":"npm.png"
+          }
+        },
+        {
+          "name":"Yarn",
+          "url":"https://www.yarnpkg.cn/",
+          "desc":"Yarn 是一个软件包管理器，还可以作为项目管理工具。无论你是小型项目还是大型单体仓库（monorepos），无论是业余爱好者还是企业用户，Yarn 都能满足你的需求。",
+          "icon":{
+            "name":"yarn.svg"
+          }
+        },
+        {
+          "name":"Pnpm",
+          "url":"https://www.pnpm.cn/",
+          "desc":"pnpm - 速度快、节省磁盘空间的软件包管理器",
+          "have":"快速|高效|支持单体仓库|权限严格",
+          "icon":{
+            "name":"pnpm.png"
+          }
+        },
+        {
+          "name":"nvm",
+          "url":"https://gitcode.gitcode.host/docs-cn/nvm-docs-cn/print.html",
+          "desc":"nvm 是 node.js 的版本管理器，设计为按用户安装，并按 shell 调用。nvm 适用于任何 POSIX 兼容的 shell（sh、dash、ksh、zsh、bash），特别是在这些平台上:UNIX、macOS 和 Windows WSL ",
+          "have":"npm版本切换",
+          "icon":{
+            "name":"nvm.png"
+          }
+        },
+        {
+          "name":"Husky",
+          "url":"https://husky.nodejs.cn/",
+          "desc":"一个Git辅助工具,它允许开发人员在代码提交前或者推送前执行自定义的脚本,来保证代码的质量和一致性",
+          "have":"GIT|提交代码",
+          "icon":{
+            "name":"husky.png"
+          }
+        },
+        {
+          "name":"Rimraf",
+          "url":"https://github.com/topics/rimraf",
+          "desc":"Rimraf使用异步API来进行文件和文件夹的删除操作，这意味着它不会阻塞Node.js的事件循环。这使得rimraf可以在处理大型文件系统结构时保持高性能。",
+          "have":"JS库|快速删除文件夹",
+          "icon":{
+            "name":"rimraf.png"
+          }
+        },
+        {
+          "name":"Webpack-bundle-analyzer",
+          "url":"https://www.npmjs.com/package/webpack-bundle-analyzer",
+          "desc":"打包代码体积分析工具",
+          "have":"Webpack插件|分析打包体积|代码优化",
+          "icon":{
+            "color":"black"
+          }
+        },
+        {
+          "name":"PostCss",
+          "url":"https://www.postcss.com.cn/",
+          "desc":"一个用 JavaScript 工具和插件转换 CSS 代码的工具",
+          "have":"转换 CSS",
+          "icon":{
+            "name":"postcss.png"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "UI素材",
+      "desc": "给您提供丰富的交互灵感",
+      "id":"uiComponents",
+      "list": [
+        {
+          "name":"navnav+",
+          "url":"https://navnav.co/",
+          "desc":"navnav收集优秀web&app菜单",
+          "have":"css|animation|ui",
+          "icon":{
+            "name":"navnav.png"
+          }
+        },
+        {
+          "name":"codepen",
+          "url":"https://codepen.io/",
+          "desc":"收集优秀web&app特效",
+          "have":"css|animation|ui|特效",
+          "icon":{
+            "name":"codepen.png"
+          }
+        },
+        {
+          "name":"花瓣",
+          "url":"https://huaban.com/follow",
+          "desc":"设计师寻找灵感的天堂!图片素材领导者,帮你采集、发现网络上你喜欢的事物。",
+          "have":"图片素材|设计稿",
+          "icon":{
+            "name":"huaban.png"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "特效库",
+      "desc": "给您提供丰富的交互灵感",
+      "id":"coolplus",
+      "list": [
+        {
+          "name":"Anime.js",
+          "url":"https://animejs.com/",
+          "desc":"它是一个轻量级的 JavaScript 动画库，具有简单的 API，可用于对 CSS 属性、SVG、DOM 属性和 JavaScript 对象进行动画处理。使用 Anime.js，您可以播放、暂停、重新启动或反转动画。",
+          "have":"动画插件",
+          "icon":{
+            "name":"anime.png"
+          }
+        },
+        {
+          "name":"GSAP",
+          "url":"https://gsap.com/",
+          "desc":"GSAP是一个专业的动画库，能够精细地处理CSS属性、SVG元素和JavaScript对象的动画。它支持补间动画、时间轴管理以及多种缓动函数。",
+          "have":"动画插件",
+          "icon":{
+            "name":"gsap.png"
+          }
+        },
+        {
+          "name":"Lottie",
+          "url":"https://airbnb.io/lottie/",
+          "desc":"一个可解析使用 Bodymovin 插件导出为 JSON 的 Adobe After Effects 动画，并在移动和 Web 应用程序上本地渲染它们。这样就无需手动重新创建专家设计师在 After Effects 中创建的高级动画。",
+          "have":"动画插件",
+          "icon":{
+            "name":"lottie.webp"
+          }
+        },
+        {
+          "name":"ScrollReveal",
+          "url":"https://scrollrevealjs.org/",
+          "desc":"ScrollReveal 库可让您在 DOM 元素进入或离开浏览器视口时轻松为其设置动画。它提供了各种类型的优雅效果来显示或隐藏多个浏览器中滚动的元素。而且也非常易于使用，零依赖",
+          "have":"动画插件",
+          "icon":{
+            "name":"scrollrevealjs.png"
+          }
+        },
+        {
+          "name":"Rough Notation",
+          "url":"https://roughnotation.com/",
+          "desc":"用于在网页上创建彩色注释并为其设置动画。它使用 RoughJS 创建手绘的外观和感觉。可以创建多种注释样式，包括下划线、框、圆圈、突出显示、删除线等，并控制每种注释样式的持续时间和颜色。",
+          "have":"动画插件",
+          "icon":{
+            "name":"rough.png"
+          }
+        },
+        {
+          "name":"Vivus",
+          "url":"https://maxwellito.github.io/vivus/",
+          "desc":"可对 SVG 进行动画处理，使它们具有绘制的外观。它快速且轻量级，依赖性为零，并提供三种不同的方式来制作 SVG 动画：Delayed、Sync 和 OneByOne。还可以使用自定义脚本以您喜欢的方式绘制 SVG。",
+          "have":"动画插件",
+          "icon":{
+            "name":"vivue.png"
+          }
+        },
+        {
+          "name":"BarbaJS",
+          "url":"https://barba.js.org/",
+          "desc":"让网站脱颖而出的一种创造性方法是，当用户在页面之间导航时，在页面之间添加生动的过渡。与简单地显示新网页或重新加载浏览器相比，这会产生更好的用户体验。",
+          "have":"动画插件",
+          "icon":{
+            "name":"barba.png"
+          }
+        },
+        {
+          "name":"TypedJS",
+          "url":"https://mattboldt.com/demos/typed-js/",
+          "desc":"它会逐个字符地输入特定的字符串，就像有人实时打字一样，允许您暂停打字速度，甚至可以暂停打字一段特定的时间",
+          "have":"动画插件",
+          "icon":{
+            "name":"typedjs.png"
+          }
+        },
+        {
+          "name":"MoJS",
+          "url":"https://github.com/mojs/",
+          "desc":"Mojs是一个免费的开源动画库，它提供了数十个非常有用的开源工具，如运动播放器（Mojs播放器）、曲线和时间轴运动编辑器等。",
+          "have":"动画插件",
+          "icon":{
+            "name":"mojs.png"
+          }
+        }
+      ]
+    },
+    
+    {
+      "cat": "大屏开发",
+      "desc": "前端大屏开发，数据可视化解决方案",
+      "id":"maxScreen",
+      "list": [
+        {
+          "name":"AntV",
+          "url":"https://antv-2018.alipay.com/zh-cn/index.html#__products",
+          "desc":"由蚂蚁金服团队开发的可视化解决方案，包含G2、G6、L7和F2等子库，覆盖图表、关系图和地图，强调定制性，支持复杂图表的自由组合。适用于金融、地理、社交网络等领域的大屏展示‌",
+          "have":"G2|G6|L7|F2|图表|关系图|地图|强调定制性",
+          "icon":{
+            "name":"antv.svg"
+          }
+        },
+        {
+          "name":"DataV",
+          "url":"http://datav.jiaminghi.com/guide/",
+          "desc":"阿里云出品的开源可视化组件库，专注于数据大屏展示，内置多种炫酷组件，如飞线图、轮播列表等，适合快速搭建炫酷的可视化界面。适用于实时监控、运营数据展示等场景‌",
+          "have":"装饰性|图表|轮播表|水位图|各种数据展示组件",
+          "icon":{
+            "name":"datav.png"
+          }
+        },
+        {
+          "name":"ECharts",
+          "url":"https://echarts.apache.org/zh/index.html",
+          "desc":"ECharts是一款基于JavaScript的数据可视化图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表",
+          "have":"图表|轮播表|水位图|百度出品",
+          "icon":{
+            "name":"echarts.png"
+          }
+        },
+        {
+          "name":"ChartJS",
+          "url":"https://chartjs.bootcss.com/",
+          "desc":"为设计和开发人员准备的简单、灵活的 JavaScript 图表工具，如果您需要创建一个简单的图表，那么ChartJS是一个很好的选择。",
+          "have":"图表|动画|响应式",
+          "icon":{
+            "name":"echarts.png"
+          }
+        },
+        {
+          "name":"ThreeJS",
+          "url":"http://www.webgl3d.cn/",
+          "desc":"Three.js 是一个基于 WebGL 技术的JavaScript3D 库。它允许开发者在网页上创建和展示 3D 图形内容,而无需用户安装任何额外的插件或软件.",
+          "have":"物理引擎|工具和社区支持|门槛高",
+          "icon":{
+            "name":"threejs.png"
+          }
+        },
+        {
+          "name":"D3JS",
+          "url":"https://d3js.org/",
+          "desc":"通过直接操作DOM实现高度定制化的图表，学习成本较高但灵活性极强，适合需要深度定制的场景。适用于自定义可视化展示和复杂交互的实现‌",
+          "have":"数据驱动‌|灵活的数据处理‌|强大的DOM操作能力‌|跨平台兼容性|丰富的图表类型",
+          "icon":{
+            "name":"d3.svg"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "AI助手",
+      "desc": "利用 AI 帮助提高您的工作效率，只收录不需要翻墙的",
+      "id":"aiTool",
+      "list": [
+        {
+          "name":"MarsCode",
+          "url":"https://www.marscode.cn/workbench",
+          "desc":"基于云雀模型开发的AI工具，提供聊天机器人、写作助手以及英语学习助手等功能，它可以回答各种问题并进行对话，帮助人们获取信息，支持网页Web平台，iOS以及安卓平台",
+          "have":"AI|vscode|JetBrains IDEs|MarsCode IDE",
+          "icon":{
+            "name":"marscode.svg"
+          }
+        },
+        {
+          "name":"Deepseek",
+          "url":"https://platform.deepseek.com/usage",
+          "desc":"DeepSeek-V3 的综合能力 DeepSeek-V3 在推理速度上相较历史模型有了大幅提升。 在目前大模型主流榜单中,DeepSeek-V3 在开源模型中位列榜首,与世界上最先进的闭源模型不分伯仲",
+          "have":"AI|编程助手|多模态能力‌",
+          "icon":{
+            "name":"deepseek.webp"
+          }
+        },
+        {
+          "name":"科大讯飞",
+          "url":"https://xinghuo.xfyun.cn/spark",
+          "desc":"智能搜索、文案创作、编程辅助、图片生成、助你高效解决工作、学习、生活的场景问题",
+          "have":"AI|PPT生成|图像生成|内容写作|语音",
+          "icon":{
+            "name":"spark.svg"
+          }
+        },
+        {
+          "name":"通义千问",
+          "url":"https://tongyi.aliyun.com/",
+          "desc":"智能搜索、文案创作、编程辅助、图片生成、助你高效解决工作、学习、生活的场景问题",
+          "have":"AI|文生视频|图生视频|阅读创作",
+          "icon":{
+            "name":"wanxiang.png"
+          }
+        },
+        {
+          "name":"文心一言",
+          "url":"https://yiyan.baidu.com/",
+          "desc":"作为你的智能伙伴，我既能写文案、想点子，又能你陪你聊天、答疑解惑。",
+          "have":"AI|对话互动|回答问题|协助创作",
+          "icon":{
+            "name":"wanxiang.png"
+          }
+        },
+        {
+          "name":"MdnPlus",
+          "url":"https://developer.mozilla.org/en-US/plus/ai-help",
+          "desc":"通过 MDN 上的 AI 辅助帮助提高您的工作效率",
+          "have":"history|context|gpt-4",
+          "icon":{
+            "name":"mdnai.png"
+          }
+        }
+      ]
+    },
+    {
+      "cat": "API",
+      "desc": "下一代的前端工具链,为开发提供极速响应",
+      "id":"restService",
+      "list": [
+        {
+          "name":"StrAPI",
+          "url":"https://www.strapi.cn/",
+          "desc":"用几分钟完成设置，然后用几个小时而不是几周就能构建任何项目了，例如搭建cms。",
+          "have":"api|rest-api|graphql-api",
+          "icon":{
+            "name":"strapi.png"
+          }
+        },
+        {
+          "name":"Fastify",
+          "url":"https://www.fastify.cn/",
+          "desc":"力于以最少的开销和强大的插件结构提供最佳的开发体验。据我们所知，它是这个领域里速度最快的 web 框架之一",
+          "have":"高性能|可扩展|基于 Schema|支持 TypeScript|日志|对开发人员友好",
+          "icon":{
+            "name":"fastify.png"
+          }
+        }
+      ]
+    }
+  ]
+}

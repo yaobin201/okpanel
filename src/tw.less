@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-background {
+  background-size: 100% calc(100% + 2px),150% 100%;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6) 50px,rgba(0,0,0,.6) 100px,#000),url(/tudum/top10/_next/static/media/bg-0--300@2x.bcb8d84f5158155239555e89d715b845.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.6) 50px,rgba(0,0,0,.6) 100px,#000),url(/tudum/top10/_next/static/media/bg-0--300@2x.bcb8d84f5158155239555e89d715b845.jpg)
+}
+
+.top-shade {
+  height: 80vh;
+  margin-bottom: -80vh;
+  max-width: 820px;
+  width: 90%
+}
+
+.nflx-bg-1,.nflx-bg-2,.nflx-bg-3,.nflx-bg-mp {
+  background-size: 100% 100%;
+  background-repeat: no-repeat
+}
+
+.nflx-bg-1 {
+  background-image: -webkit-linear-gradient(#000 0,transparent var(--gradient-fade-width),transparent calc(100% - var(--gradient-fade-width)),#000 100%),-webkit-linear-gradient(20deg,#3c1251,#000 40%,#000 60%,#012f7a);
+  background-image: linear-gradient(#000 0,transparent var(--gradient-fade-width),transparent calc(100% - var(--gradient-fade-width)),#000 100%),linear-gradient(70deg,#3c1251,#000 40%,#000 60%,#012f7a);
+}
+
+.nflx-bg-2 {
+  background-image: -webkit-linear-gradient(#000 0,transparent var(--gradient-fade-width),transparent calc(100% - var(--gradient-fade-width)),#000 100%),-webkit-linear-gradient(20deg,#6e1d02,#000,#5e0a31);
+  background-image: linear-gradient(#000 0,transparent var(--gradient-fade-width),transparent calc(100% - var(--gradient-fade-width)),#000 100%),linear-gradient(70deg,#6e1d02,#000,#5e0a31)
+}
+
+.nflx-bg-3 {
+  background-image: -webkit-linear-gradient(#000 0,transparent var(--gradient-fade-width),transparent calc(100% - var(--gradient-fade-width)),#000 100%),-webkit-linear-gradient(20deg,#7b040a,#000,#03317b);
+  background-image: linear-gradient(#000 0,transparent var(--gradient-fade-width),transparent calc(100% - var(--gradient-fade-width)),#000 100%),linear-gradient(70deg,#7b040a,#000,#03317b)
+}
+
+.nflx-bg-mp {
+  background-image: -webkit-linear-gradient(#000,transparent 5%,transparent calc(100% - 5%),#000),-webkit-linear-gradient(20deg,#5a0608,#000,#18355f);
+  background-image: linear-gradient(#000,transparent 5%,transparent calc(100% - 5%),#000),linear-gradient(70deg,#5a0608,#000,#18355f)
+}
