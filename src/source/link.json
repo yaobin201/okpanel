@@ -159,6 +159,15 @@
           "icon":{
             "name":"morejs.png"
           }
+        },
+        {
+          "name":"VitePress",
+          "url":"https://vitepress.dev/",
+          "desc":"Vite&Vue 驱动的静态站点生成器,在几分钟内将Markdown文档构建为漂亮的网页",
+          "have":"静态站点生成器|Vue+Vite|Markdown生成网站",
+          "icon":{
+            "name":"vitepress.svg"
+          }
         }
       ]
     },
@@ -174,6 +183,15 @@
           "have": "一次付费永久更新",
           "icon": {
             "name": "tailwindui.png"
+          }
+        },
+        {
+          "name": "RemixIcon",
+          "url": "https://remixicon.cn/",
+          "desc": "简单令人愉快的图标系统为设计师和开发人员精心制作的开源中性风格系统符号。所有图标都可免费用于个人和商业用途。",
+          "have": "170,000多个图标|免费",
+          "icon": {
+            "name": "remixion.svg"
           }
         },
         {
@@ -812,6 +830,15 @@
           "have":"AI|编程助手|多模态能力‌",
           "icon":{
             "name":"deepseek.webp"
+          }
+        },
+        {
+          "name":"Genesis",
+          "url":"https://genesis-embodied-ai.github.io/",
+          "desc":"Genesis大模型是一个由华人团队开发的开源生成式物理引擎，历时两年完成，专为机器人、具身AI（Embodied AI）和物理AI应用而设计。",
+          "have":"AI|物理AI|文本|图像|音频|视频|3D场景",
+          "icon":{
+            "color":"#fe6a00"
           }
         },
         {
