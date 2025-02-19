@@ -728,6 +728,15 @@
           }
         },
         {
+          "name":"ReactBits",
+          "url":"https://www.reactbits.dev/",
+          "desc":"React Bits 是一个大型的动画 React 组件集合，用于为你的网页创作增添趣味。我们有动画、组件、背景和其他任何地方都找不到的很棒的东西 —— 全部免费供你使用",
+          "have":"动画库",
+          "icon":{
+            "name":"reactbits.svg"
+          }
+        },
+        {
           "name":"TypedJS",
           "url":"https://mattboldt.com/demos/typed-js/",
           "desc":"它会逐个字符地输入特定的字符串，就像有人实时打字一样，允许您暂停打字速度，甚至可以暂停打字一段特定的时间",
@@ -814,6 +823,15 @@
       "desc": "利用 AI 帮助提高您的工作效率，只收录不需要翻墙的",
       "id":"aiTool",
       "list": [
+        {
+          "name":"OpenRouter",
+          "url":"https://openrouter.ai/",
+          "desc":"OpenRouter 是一个基于 OpenAI 的 API 服务，它提供了一个统一的 API 接口，让用户可以使用 OpenAI 的 API 服务。",
+          "have":"AI|国内直连|搜索free",
+          "icon":{
+            "color":"#fe6a00"
+          }
+        },
         {
           "name":"MarsCode",
           "url":"https://www.marscode.cn/workbench",
