@@ -889,8 +889,8 @@
         {
           "name":"Deepseek",
           "url":"https://platform.deepseek.com/usage",
-          "desc":"DeepSeek-V3 的综合能力 DeepSeek-V3 在推理速度上相较历史模型有了大幅提升。 在目前大模型主流榜单中,DeepSeek-V3 在开源模型中位列榜首,与世界上最先进的闭源模型不分伯仲",
-          "have":"AI|编程助手|多模态能力‌|收费|开源",
+          "desc":"DeepSeek是基于深度学习和数据挖掘技术的智能搜索与分析系统，通过深度学习模型理解数据语义，实现智能化搜索与分析。",
+          "have":"AI|编程助手|多模态能力‌|api调用收费|开源",
           "icon":{
             "name":"deepseek.webp"
           }
