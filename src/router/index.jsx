@@ -1,9 +1,9 @@
 import Home from '../pages/Home';
 import Tools from '../pages/Tools';
-import { createBrowserRouter, Navigate } from 'react-router-dom'
+import { createHashRouter, Navigate } from 'react-router-dom'
 import App from '../App'
 
-const routers = createBrowserRouter([
+const routers = createHashRouter([
   {
     path: '/',
     element: <App />,
