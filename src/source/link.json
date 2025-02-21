@@ -827,16 +827,61 @@
           "name":"OpenRouter",
           "url":"https://openrouter.ai/",
           "desc":"OpenRouter 是一个基于 OpenAI 的 API 服务，它提供了一个统一的 API 接口，让用户可以使用 OpenAI 的 API 服务。",
-          "have":"AI|国内直连|搜索free",
+          "have":"AI|国内直连|搜索free|免费|可以router到选择的ai",
           "icon":{
             "color":"#fe6a00"
+          }
+        },
+        {
+          "name":"Trae",
+          "url":"https://www.trae.ai/",
+          "desc":"Trae 是字节跳动推出的一款面向开发者的 AI 集成开发环境（IDE），旨在通过强大的 AI 功能提升开发效率。它集成了 Claude 3.5 和 GPT-4o 主流AI模型，支持智能代码生成、实时补全、优化和调试。",
+          "have":"AI|vscode|ide|免费",
+          "icon":{
+            "name":"trae.png"
+          }
+        },
+        {
+          "name":"Cursor",
+          "url":"https://www.cursor.com/",
+          "desc":"Codeium 是一款基于人工智能（AI）技术的编程辅助工具，旨在帮助开发者提高编码效率和质量。它通过智能代码补全、代码生成、代码解释、重构等功能，显著简化开发流程，尤其适合处理复杂或重复性的编程任务。",
+          "have":"AI|vscode|ide|白票|收费",
+          "icon":{
+            "color":"#000"
+          }
+        },
+        {
+          "name":"CodeIum",
+          "url":"https://codeium.com/",
+          "desc":"Codeium 是一款基于人工智能（AI）技术的编程辅助工具，旨在帮助开发者提高编码效率和质量。它通过智能代码补全、代码生成、代码解释、重构等功能，显著简化开发流程，尤其适合处理复杂或重复性的编程任务。",
+          "have":"AI|vscode|ide|个人免费|企业付费",
+          "icon":{
+            "color":"#09b6a2"
+          }
+        },
+        {
+          "name":"GithubCopilot",
+          "url":"https://github.com/features/copilot",
+          "desc":"GitHub Copilot 是由 GitHub 与 OpenAI 合作开发的一款基于人工智能的代码自动完成工具。它是专为程序员和开发者设计的，旨在通过提供即时编码建议来提高开发效率。",
+          "have":"AI|vscode|免费",
+          "icon":{
+            "color":"#09b6a2"
+          }
+        },
+        {
+          "name":"Ollama",
+          "url":"https://ollama.com/",
+          "desc":"Ollama准确来说是一个开源的大语言模型运行框架,主要功能包括: 本地运行开源语言模型,如DeepSeek、Llama 2、Mistral、gemma等,无需云服务。 提供简单的命令行和API接口。",
+          "have":"AI|ai模型部署|开源",
+          "icon":{
+            "name":"ollama.png"
           }
         },
         {
           "name":"MarsCode",
           "url":"https://www.marscode.cn/workbench",
           "desc":"基于云雀模型开发的AI工具，提供聊天机器人、写作助手以及英语学习助手等功能，它可以回答各种问题并进行对话，帮助人们获取信息，支持网页Web平台，iOS以及安卓平台",
-          "have":"AI|vscode|JetBrains IDEs|MarsCode IDE",
+          "have":"AI|vscode|JetBrains IDEs|MarsCode IDE|免费",
           "icon":{
             "name":"marscode.svg"
           }
@@ -845,7 +890,7 @@
           "name":"Deepseek",
           "url":"https://platform.deepseek.com/usage",
           "desc":"DeepSeek-V3 的综合能力 DeepSeek-V3 在推理速度上相较历史模型有了大幅提升。 在目前大模型主流榜单中,DeepSeek-V3 在开源模型中位列榜首,与世界上最先进的闭源模型不分伯仲",
-          "have":"AI|编程助手|多模态能力‌",
+          "have":"AI|编程助手|多模态能力‌|收费|开源",
           "icon":{
             "name":"deepseek.webp"
           }
