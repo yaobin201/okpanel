@@ -33,6 +33,12 @@ const Tools = () => {
     }
   }
 
+  function redirectUrl(source) {
+    if(source.url){
+      window.open(source.url,'_blank')
+    }
+  }
+
   function renderSubItem(source) {
     return (
       <div className='border border-slate-200 border-solid bg-white rounded-md p-4' key={source.name}>
@@ -41,7 +47,7 @@ const Tools = () => {
             <h3 className='text-base text-slate-900'>{source.name}</h3>
             <p className='text-sm'>{source.have}</p>
           </div>
-          <div>
+          <div className='cursor-pointer' onClick={() =>redirectUrl(source)}>
             {
               source.icon?.name ? (
                 <img className='h-6' src={`/logo/${source.icon.name}`} alt={source.name} />
