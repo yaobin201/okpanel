@@ -939,6 +939,33 @@
           "icon":{
             "name":"mdnai.png"
           }
+        },
+        {
+          "name":"Flux.1",
+          "url":"https://flux1.cc/zh",
+          "desc":"使用我们先进的 AI 图像生成技术将您的想法转化为令人惊叹的视觉效果。由 Flux AI 提供支持，几秒钟内即可创建独特的高质量图像。",
+          "have":"AI|图片生成|视频生成",
+          "icon":{
+            "name":"flux1-accent.svg"
+          }
+        },
+        {
+          "name":"Blackbox",
+          "url":"https://www.blackbox.ai/",
+          "desc":"可以联网搜索、深度探索，理解图片、文档,接入了多个AI智体集成了DeepSeek-V3,DeepSeek-R1,Gemini Flash 2.0,o3-mini,GPT-4o,Claude-Sonnet-3.5,o1等等",
+          "have":"AI|VSCODE|免费白票",
+          "icon":{
+            "coloe":"#000"
+          }
+        },
+        {
+          "name":"阶跃星辰",
+          "url":"https://www.stepfun.com/",
+          "desc":"在图像理解、多轮指令跟随、数学能力、逻辑推理、文本创作等方面性能达到业界领先水平",
+          "have":"AI|多模态|开源",
+          "icon":{
+            "name":"stepfun.svg"
+          }
         }
       ]
     },
