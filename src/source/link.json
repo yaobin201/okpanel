@@ -177,6 +177,15 @@
       "id":"uiFrame",
       "list": [
         {
+          "name": "AntDesignX",
+          "url": "https://x.ant.design/components/attachments-cn",
+          "desc": "Ant Design 团队匠心呈现 RICH 设计范式，打造卓越 AI 界面解决方案，引领智能新体验。",
+          "have": "AI前端组件库|antdegin出品",
+          "icon": {
+            "name": "antx.svg"
+          }
+        },
+        {
           "name": "TailWindUI",
           "url": "https://tailwindui.com/",
           "desc": "设计精美、制作精良的组件和模板，由 Tailwind CSS 的制造商构建。这是您下一个项目的完美起点。",
@@ -630,6 +639,15 @@
       "desc": "给您提供丰富的交互灵感",
       "id":"uiComponents",
       "list": [
+        {
+          "name":"AutoDraw",
+          "url":"https://autodraw.com/",
+          "desc":"随手画一画就能生成图表，如果为图标设计发愁，可以试一试",
+          "have":"图标设计|ui|素材",
+          "icon":{
+            "color":"#1e80ff"
+          }
+        },
         {
           "name":"navnav+",
           "url":"https://navnav.co/",
