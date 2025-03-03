@@ -168,6 +168,15 @@
           "icon":{
             "name":"vitepress.svg"
           }
+        },
+        {
+          "name":"QuickApp",
+          "url":"https://www.quickapp.cn/",
+          "desc":"快应用是一种新的应用形态，以往的手机端应用主要有两种方式：网页、原生应用；网页无需安装，却体验不是很好；原生应用体验流畅，却需要从应用商店下载安装，难以一步直达用户；快应用的出现，就是希望能够让用户无需下载安装，并且还能流畅的体验应用内容。",
+          "have":"APP|跨端开发框架",
+          "icon":{
+            "name":"quickApp.png"
+          }
         }
       ]
     },
@@ -195,15 +204,6 @@
           }
         },
         {
-          "name": "RemixIcon",
-          "url": "https://remixicon.cn/",
-          "desc": "简单令人愉快的图标系统为设计师和开发人员精心制作的开源中性风格系统符号。所有图标都可免费用于个人和商业用途。",
-          "have": "170,000多个图标|免费",
-          "icon": {
-            "name": "remixion.svg"
-          }
-        },
-        {
           "name": "ArcoDesign",
           "url": "https://arco.design/react/docs/start",
           "desc": "包含了一系列的设计原则、规范和组件，旨在帮助开发者构建一致性和高效性的 Web 应用和移动应用。设计风格简洁、现代，注重可用性和用户体验。它提供了丰富的组件和模板，可以帮助开发者快速实现设计效果，并且支持多端适配。",
@@ -212,24 +212,7 @@
             "name": "arcodesign.png"
           }
         },
-        {
-          "name": "Font Awesome",
-          "url": "https://fontawesome.com/icons",
-          "desc": "一款非常流行的图标字体库，包含了大量的免费图标，涵盖了各种领域和用途，如文件、编辑、社交、箭头等",
-          "have": "icon",
-          "icon": {
-            "name": "fontawesome.png"
-          }
-        },
-        {
-          "name": "IonicIcons",
-          "url": "https://ionic.io/ionicons",
-          "desc": "专门为 Ionic 框架设计的图标库，但也可以在其他项目中使用，包含了大量的简洁、现代的图标，适用于移动应用和网页设计。",
-          "have": "icon",
-          "icon": {
-            "name": "ionicicons.png"
-          }
-        },
+        
         {
           "name": "UiVerse",
           "url": "https://uiverse.io/",
@@ -364,15 +347,6 @@
           "icon": {
             "name": "fui.png"
           }
-        },
-        {
-          "name": "PureCss",
-          "url": "https://purecss.io/",
-          "desc": "一组小型、响应式 CSS 模块，可在每个 Web 项目中使用。",
-          "have": "占用空间小|专为移动设备而设计|构建于Normalize.css之上",
-          "icon": {
-            "name": "pure.png"
-          }
         }
       ]
     },
@@ -430,6 +404,15 @@
           "have":"keyframe|transition|transform",
           "icon":{
             "color":"#351c75"
+          }
+        },
+        {
+          "name": "PureCss",
+          "url": "https://purecss.io/",
+          "desc": "一组小型、响应式 CSS 模块，可在每个 Web 项目中使用。",
+          "have": "占用空间小|专为移动设备而设计|构建于Normalize.css之上",
+          "icon": {
+            "name": "pure.png"
           }
         }
       ]
@@ -664,6 +647,51 @@
           "have":"css|animation|ui|特效",
           "icon":{
             "name":"codepen.png"
+          }
+        },
+        {
+          "name": "RemixIcon",
+          "url": "https://remixicon.cn/",
+          "desc": "简单令人愉快的图标系统为设计师和开发人员精心制作的开源中性风格系统符号。所有图标都可免费用于个人和商业用途。",
+          "have": "170,000多个图标|免费",
+          "icon": {
+            "name": "remixion.svg"
+          }
+        },
+        {
+          "name": "Font Awesome",
+          "url": "https://fontawesome.com/icons",
+          "desc": "一款非常流行的图标字体库，包含了大量的免费图标，涵盖了各种领域和用途，如文件、编辑、社交、箭头等",
+          "have": "icon",
+          "icon": {
+            "name": "fontawesome.png"
+          }
+        },
+        {
+          "name": "IonicIcons",
+          "url": "https://ionic.io/ionicons",
+          "desc": "专门为 Ionic 框架设计的图标库，但也可以在其他项目中使用，包含了大量的简洁、现代的图标，适用于移动应用和网页设计。",
+          "have": "icon",
+          "icon": {
+            "name": "ionicicons.png"
+          }
+        },
+        {
+          "name": "IconFont",
+          "url": "https://www.iconfont.cn/",
+          "desc": "图标库，矢量插画库，3D插画库，动效库，字体库。阿里妈妈MUX倾力打造的矢量图标管理、交流平台。设计师将图标上传到 iconfont 平台，用户可以自定义下载多种格式的icon，平台也可将图标转换为字体，便于前端工程师自由调整与调用。",
+          "have": "icon",
+          "icon": {
+            "name": "iconfont.svg"
+          }
+        },
+        {
+          "name": "GalaceanEffects",
+          "url": "https://galacean.antgroup.com/effects",
+          "desc": "快速轻松地制作动效使用免费工具，动效从此更加简单。100% 还原，制作结果等于上线效果，显著降低动效相关的实现成本。产物性能优越，Web、iOS、Android 三端一致。",
+          "have": "lottie|开屏动画|动画交互",
+          "icon": {
+            "name": "original.svg"
           }
         },
         {
