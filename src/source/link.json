@@ -186,6 +186,15 @@
       "id":"uiFrame",
       "list": [
         {
+          "name": "DaisyUI",
+          "url": "https://daisyui.com/?lang=zh_hans",
+          "desc": "daisyUI 一定会是你喜欢的 Tailwind CSS 插件,它提供了有用的组件类名来帮助你编写更少的代码并且更快的构建应用程序。",
+          "have": "Tailwind CSS|ui插件",
+          "icon": {
+            "color": "#000"
+          }
+        },
+        {
           "name": "AntDesignX",
           "url": "https://x.ant.design/components/attachments-cn",
           "desc": "Ant Design 团队匠心呈现 RICH 设计范式，打造卓越 AI 界面解决方案，引领智能新体验。",
@@ -815,6 +824,15 @@
           "have":"G2|G6|L7|F2|图表|关系图|地图|强调定制性",
           "icon":{
             "name":"antv.svg"
+          }
+        },
+        {
+          "name":"Gridstackjs",
+          "url":"http://www.gridstackjs.cn/",
+          "desc":"gridstack.js 是一个现代 Typescript 库，旨在帮助开发人员创建漂亮的可拖动、可调整大小、响应式引导友好的布局，只需几行代码。您可以创建更高级的网格：允许用户保留更改、创建小部件的侧边栏以拖动到您的网格中等等。",
+          "have":"可拖动|嵌套网格|构建交互式仪表板",
+          "icon":{
+            "color":"#008cba"
           }
         },
         {
