@@ -143,6 +143,15 @@
           }
         },
         {
+          "name":"Electron-EGG",
+          "url":"https://gitee.com/dromara/electron-egg",
+          "desc":"一个入门简单、跨平台、企业级桌面软件开发框架,覆盖前端、java、go、python、php 等开发者,无论你是前端、服务端、运维、游戏、客户端等，都可以很快入门，",
+          "have":"桌面应用|macOS|Windows|Linux",
+          "icon":{
+            "name":"egg.png"
+          }
+        },
+        {
           "name":"TypeScript",
           "url":"https://www.tslang.cn/docs/home.html",
           "desc":"TypeScript是微软开发的一个开源的编程语言，通过在JavaScript的基础上添加静态类型定义构建而成。TypeScript通过TypeScript编译器或Babel转译为JavaScript代码，可运行在任何浏览器，任何操作系统。",
@@ -293,7 +302,16 @@
           }
         },
         {
-          "name": "Frozen UI",
+          "name": "Radix",
+          "url": "https://www.radix-ui.com/",
+          "desc": "一个开源组件库，针对快速开发、易于维护和可访问性进行了优化。只需导入并执行即可，无需配置。",
+          "have": "语义化|高度可定制|响应式设计|文档完善",
+          "icon": {
+            "color":"#000"
+          }
+        },
+        {
+          "color": "Frozen UI",
           "url": "https://frozenui.github.io/getting-started",
           "desc": "FrozenUI 是一套基于移动端的UI库。它非常轻量、精美，遵从手机QQ设计规范，提供了表单、对话框、列表等常用组件。此外，FrozenUI还提供文字截断、1px边框、rem、两端留白等常用场景的解决方案。CSS做得更模块化和颗粒化，使用sass编写CSS代码，你完全可以按照实际情况按需加载。",
           "have": "简单易用|轻量快捷|为移动端服务的前端框架",
@@ -622,6 +640,15 @@
           "have":"转换 CSS",
           "icon":{
             "name":"postcss.png"
+          }
+        },
+        {
+          "name":"HttpOk",
+          "url":"https://httpsok.com/doc/",
+          "desc":"httpsok 是一个便捷的 HTTPS 证书自动续期工具，专为 Nginx 服务器设计。已服务众多中小企业，稳定、安全、可靠。",
+          "have":"HTTPS",
+          "icon":{
+            "name":"https.png"
           }
         }
       ]
