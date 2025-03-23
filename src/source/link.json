@@ -38,6 +38,14 @@
             {
               "name":"Vue-i18n",
               "url": "https://vue-i18n.intlify.dev/"
+            },
+            {
+              "name":"Vue-Cli",
+              "url": "https://cli.vuejs.org/zh/guide/"
+            },
+            {
+              "name":"Vue-Config",
+              "url": "https://cli.vuejs.org/zh/config/"
             }
           ]
         },
