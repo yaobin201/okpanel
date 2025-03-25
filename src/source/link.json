@@ -88,12 +88,21 @@
           }
         },
         {
-          "name":"Uni",
+          "name":"UniApp",
           "url":"https://uniapp.dcloud.net.cn/",
           "desc":"一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台。",
           "have":"跨平台小程序|响应式|跨平台|组件化|丰富的生态",
           "icon":{
             "name":"uni.png"
+          }
+        },
+        {
+          "name":"UniBest",
+          "url":"https://unibest.tech/",
+          "desc":"unibest 是最好的 uniapp 开发框架，由 uniapp + Vue3 + Ts + Vite5 + UnoCss + VSCode(可选 webstorm) + uni插件+ wot-ui（可选其他 UI 库）构建，集成了多种工具和技术，使用了最新的前端技术栈，无需依靠 HBuilderX，通过命令行方式即可运行 web、小程序 和 App。（注：App 还是需要 HBuilderX）",
+          "have":"Uniapp|多平台覆盖|Vue3 + Vite5 + Pnpm + TypeScript|跨平台|100000+ 图标|丰富的生态",
+          "icon":{
+            "color":"#4ccd5d"
           }
         },
         {
