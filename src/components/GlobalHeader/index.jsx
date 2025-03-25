@@ -57,6 +57,14 @@ export default function GlobalHeader() {
                     >
                       DayUpAi
                     </a>
+                    <a
+                href="https://docker.smartmen.cn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium'
+              >
+                Docker
+              </a>
                   </div>
                 </div>
               </div>
@@ -102,7 +110,7 @@ export default function GlobalHeader() {
                 DayUpAi
               </a>
               <a
-                href="https://docker.smartmen.com"
+                href="https://docker.smartmen.cn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className='text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium'
