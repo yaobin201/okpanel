@@ -328,7 +328,7 @@
           }
         },
         {
-          "color": "Frozen UI",
+          "name": "Frozen UI",
           "url": "https://frozenui.github.io/getting-started",
           "desc": "FrozenUI 是一套基于移动端的UI库。它非常轻量、精美，遵从手机QQ设计规范，提供了表单、对话框、列表等常用组件。此外，FrozenUI还提供文字截断、1px边框、rem、两端留白等常用场景的解决方案。CSS做得更模块化和颗粒化，使用sass编写CSS代码，你完全可以按照实际情况按需加载。",
           "have": "简单易用|轻量快捷|为移动端服务的前端框架",
@@ -485,6 +485,15 @@
           }
         },
         {
+          "name":"ElectronVite",
+          "url":"https://cn.electron-vite.org/",
+          "desc":"electron-vite 是一个新型构建工具，旨在为 Electron 提供更快、更精简的开发体验",
+          "have":"一套构建指令|集中配置|快速模块热替换",
+          "icon":{
+            "name":"evite.svg"
+          }
+        },
+        {
           "name":"Rollup",
           "url":"https://www.rollupjs.com/",
           "desc":"Rollup 是一个用于 JavaScript 的模块打包工具，它将小的代码片段编译成更大、更复杂的代码，只包含最少的内容。",
@@ -552,6 +561,15 @@
           "have":"学习手册",
           "icon":{
             "color":"#fe6a00"
+          }
+        },
+        {
+          "name":"CopyAnyUI",
+          "url":"https://same.new/",
+          "desc":"提供一个网页url，它将完整复制网站对应的ui代码",
+          "have":"copy any ui",
+          "icon":{
+            "color":"#333"
           }
         },
         {
@@ -868,6 +886,15 @@
           "have":"G2|G6|L7|F2|图表|关系图|地图|强调定制性",
           "icon":{
             "name":"antv.svg"
+          }
+        },
+        {
+          "name":"Reaviz",
+          "url":"https://reaviz.dev/",
+          "desc":"REAVIZ是一个模块化的图表组件库，它原生利用React渲染组件，同时使用D3js进行计算。该库提供了一种在不牺牲自定义能力的情况下开始创建图表的简单方法。‌",
+          "have":"数据可视化|支持React|强调定制性",
+          "icon":{
+            "name":"reaviz.svg"
           }
         },
         {
