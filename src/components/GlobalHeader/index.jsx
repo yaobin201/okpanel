@@ -50,13 +50,13 @@ export default function GlobalHeader() {
                       </a>
                     ))}
                     <a
-                        href="https://daydayupai.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className='text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
-                      >
-                        DayUpAi
-                      </a>
+                      href="https://daydayupai.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className='text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium'
+                    >
+                      DayUpAi
+                    </a>
                   </div>
                 </div>
               </div>
@@ -93,14 +93,22 @@ export default function GlobalHeader() {
                 </Disclosure.Button>
               ))}
 
-<a
-                        href="https://daydayupai.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className='text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium'
-                      >
-                        DayUpAi
-                      </a>
+              <a
+                href="https://daydayupai.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium'
+              >
+                DayUpAi
+              </a>
+              <a
+                href="https://docker.smartmen.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium'
+              >
+                Docker
+              </a>
             </div>
           </Disclosure.Panel>
         </>
