@@ -91,9 +91,18 @@
           "name":"UniApp",
           "url":"https://uniapp.dcloud.net.cn/",
           "desc":"一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台。",
-          "have":"跨平台小程序|响应式|跨平台|组件化|丰富的生态",
+          "have":"跨端框架|响应式|跨平台|组件化|丰富的生态",
           "icon":{
             "name":"uni.png"
+          }
+        },
+        {
+          "name":"Taro",
+          "url":"https://taro.zone/",
+          "desc":"Taro 是由 京东·凹凸实验室 倾力打造的多端开发解决方案。使用 Taro，我们可以只书写一套代码，再通过 Taro 的编译工具，将源代码分别编译出可以在不同端（微信小程序、H5、RN等）运行的代码。",
+          "have":"跨端框架|响应式|跨平台|组件化|丰富的生态",
+          "icon":{
+            "color":"blue"
           }
         },
         {
@@ -782,10 +791,10 @@
       "id":"coolplus",
       "list": [
         {
-          "name":"Anime.js",
+          "name":"AnimeJS4",
           "url":"https://animejs.com/",
           "desc":"它是一个轻量级的 JavaScript 动画库，具有简单的 API，可用于对 CSS 属性、SVG、DOM 属性和 JavaScript 对象进行动画处理。使用 Anime.js，您可以播放、暂停、重新启动或反转动画。",
-          "have":"动画插件",
+          "have":"动画插件|V4 版本",
           "icon":{
             "name":"anime.png"
           }
