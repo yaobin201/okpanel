@@ -24,6 +24,10 @@
               "url": "https://cn.vuejs.org/"
             },
             {
+              "name":"vueuse",
+              "url": "https://vueuse.nodejs.cn/"
+            },
+            {
               "name":"Vue-Router",
               "url": "https://router.vuejs.org/zh/"
             },
@@ -409,6 +413,15 @@
           "icon": {
             "color": "#00a99f"
           }
+        },
+        {
+          "name": "VxeTable",
+          "url": "https://www.vxetable.cn/",
+          "desc": "一个基于 vue 的 PC 端表格组件，支持增删改查、虚拟列表、虚拟树、懒加载、快捷菜单、数据校验、打印导出、表单渲染、数据分页、弹窗、自定义模板、渲染器、贼灵活的配置项等",
+          "have": "表格组件",
+          "icon": {
+            "color": "#409eff"
+          }
         }
       ]
     },
@@ -527,6 +540,15 @@
           "have":"自动化构建工具",
           "icon":{
             "name":"rollup.png"
+          }
+        },
+        {
+          "name":"RollDown",
+          "url":"https://rolldown.rs/",
+          "desc":"Rolldown是一款用Rust编写的JavaScript/TypeScript快速打包器，旨在成为Vite未来的主要打包工具。",
+          "have":"自动化构建工具",
+          "icon":{
+            "color":"#e37800"
           }
         },
         {
