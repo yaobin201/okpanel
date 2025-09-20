@@ -752,6 +752,15 @@
           }
         },
         {
+          "name":"UI-TOOLS",
+          "url":"https://tools.ui-layouts.com/",
+          "desc":"在线绘制svg，在线调试阴影，Clip-path，颜色生成器",
+          "have":"svg|boxshadow|clip-path|color lab",
+          "icon":{
+            "color":"#333333"
+          }
+        },
+        {
           "name":"navnav+",
           "url":"https://navnav.co/",
           "desc":"navnav收集优秀web&app菜单",
@@ -846,6 +855,15 @@
           "have":"动画插件",
           "icon":{
             "name":"gsap.png"
+          }
+        },
+        {
+          "name":"PXXI",
+          "url":"https://pixijs.huashengweilai.com/",
+          "desc":"PixiJS 是一个基于 WebGL 的 2D 渲染引擎，用于创建高性能的交互式图形和动画。它提供了一个简单而强大的 API，使开发人员能够轻松地创建和管理 2D 场景、精灵、动画和交互元素。",
+          "have":"动画库|2D 渲染引擎",
+          "icon":{
+            "color":"#e91e63"
           }
         },
         {
