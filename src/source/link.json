@@ -216,6 +216,15 @@
           "icon":{
             "name":"quickApp.png"
           }
+        },
+        {
+          "name":"mitt",
+          "url":"https://github.com/developit/mitt",
+          "desc":"mitt 是一个轻量级的事件发射器，适用于现代浏览器和 Node.js。它提供了简单的 API 来处理事件，支持多种用例，包括组件通信、状态管理和异步操作。",
+          "have":"事件发布订阅|轻量级|TypeScript支持",
+          "icon":{
+            "color":"#9B85FF"
+          }
         }
       ]
     },
@@ -243,6 +252,15 @@
           }
         },
         {
+          "name": "Vue3-notification",
+          "url": "https://github.com/kyvg/vue3-notification",
+          "desc": "Vue 3 通知组件，用于在应用程序中显示通知消息。",
+          "have": "显示通知消息组件",
+          "icon": {
+            "color": "#1f883d"
+          }
+        },
+        {
           "name": "TailWindUI",
           "url": "https://tailwindui.com/",
           "desc": "设计精美、制作精良的组件和模板，由 Tailwind CSS 的制造商构建。这是您下一个项目的完美起点。",
@@ -260,7 +278,6 @@
             "name": "arcodesign.png"
           }
         },
-        
         {
           "name": "UiVerse",
           "url": "https://uiverse.io/",
@@ -758,6 +775,15 @@
           "have":"svg|boxshadow|clip-path|color lab",
           "icon":{
             "color":"#333333"
+          }
+        },
+        {
+          "name":"pictogrammers",
+          "url":"https://pictogrammers.com/libraries/",
+          "desc":"在线绘制svg，在线调试阴影，Clip-path，颜色生成器",
+          "have":"字体图标库|不同风格|多种格式|@mdi/font",
+          "icon":{
+            "color":"#520065"
           }
         },
         {
