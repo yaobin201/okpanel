@@ -778,6 +778,15 @@
           }
         },
         {
+          "name":"fontsource",
+          "url":"https://fontsource.org/docs/getting-started/introduction",
+          "desc":"Fontsource是一组开源字体，它们被打包成单独的NPM包，用于在您的web应用程序中进行自托管。本文档概述了使用Fontsource的好处以及如何开始使用。",
+          "have":"字体|开源|NPM包|自托管",
+          "icon":{
+            "color":"#625bf8"
+          }
+        },
+        {
           "name":"pictogrammers",
           "url":"https://pictogrammers.com/libraries/",
           "desc":"在线绘制svg，在线调试阴影，Clip-path，颜色生成器",
